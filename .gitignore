@@ -1,0 +1,15 @@
+/bin/
+/obj/
+/build/
+/assets/C/
+/assets/E/
+/assets/J/
+*.layout
+*.depend
+*.blend1
+*.dll
+*.exe
+*.o
+*.zip
+*.rar
+__pycache__/

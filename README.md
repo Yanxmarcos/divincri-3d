@@ -26,7 +26,7 @@ La edición es por sesión y funciona sin conexión ni base de datos. El guardad
 
 ## Cómo probarlo
 
-**Con el ZIP de Windows x64**. En Windows 10 u 11, extrae el contenido completo en una carpeta y abre `DIVINCRI-3D.exe`. Conserva `assets/` y las DLL junto al ejecutable.
+**Con el ZIP de Windows x64**. En Windows 10 u 11, extrae el contenido completo en una carpeta y abre `DIVINCRI-3D.exe`. Conserva `assets/` y las DLL junto al ejecutable. [Descargar v0.1.0](https://github.com/Yanxmarcos/divincri-3d/releases/download/v0.1.0/DIVINCRI-3D-v0.1.0-windows-x64.zip)
 
 **Desde el código fuente**. Usa MinGW-w64 x64 con GCC y `windres` en el `PATH`, y wxWidgets **3.3.1** compilado con el mismo MinGW como DLL Unicode monolítica, con OpenGL habilitado. La compilación de wxWidgets debe tener la configuración `lib/gcc_dll/mswu` y las bibliotecas `libwxmsw33u.a` y `libwxmsw33u_gl.a`.
 
